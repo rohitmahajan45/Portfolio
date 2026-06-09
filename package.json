@@ -1,0 +1,32 @@
+{
+  "name": "rohit-mahajan-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.158.0",
+    "@react-three/fiber": "8.0.27",
+    "@react-three/drei": "9.56.3",
+    "framer-motion": "10.12.5",
+    "axios": "1.4.0",
+    "nodemailer": "6.9.4",
+    "@emailjs/browser": "^4.4.1",
+    "next-seo": "^7.2.0",
+    "react-icons": "^5.6.0",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^4.1.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.21",
+    "tailwindcss": "3.4.8"
+  }
+}

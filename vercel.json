@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/next" }
+  ],
+  "env": {
+    "CONTACT_EMAIL": "",
+    "SMTP_HOST": "",
+    "SMTP_PORT": "",
+    "SMTP_USER": "",
+    "SMTP_PASS": ""
+  }
+}

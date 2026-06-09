@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg-1:#071033;
+  --bg-2:#0f172a;
+  --glass: rgba(255,255,255,0.06);
+}
+
+html,body,#__next{height:100%}
+body{
+  @apply bg-gradient-to-br from-slate-900 to-slate-950 text-slate-100;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 14px;
+}
+
+/* Neon accents */
+.accent { color: theme('colors.accent') }
+.neon { color: theme('colors.neon') }
+
+.container-wide{max-width:1200px;margin:0 auto;padding:0 20px}
+
+/* Canvas sits behind content */
+#r3-canvas{position:fixed;inset:0;z-index:-1}
